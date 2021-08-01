@@ -1,0 +1,53 @@
+#main-container{
+    height: 60vh;
+    background-color: black;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 13px 2px goldenrod;
+    ;
+    width: 100%;
+    position: relative;
+    text-align: center;
+     
+}
+p{
+    font-size: 6px;
+}
+.inner-div{
+    margin: 25px  auto ;
+    font-size: 30px;
+    text-align: center;
+    background-color:goldenrod;
+    font-family: 'Digital Numbers Regular';
+    width: 26%;
+    height: 200px;
+    box-shadow: -1px -1px 15px 3px black,inset -1px -1px 15px 1px black;
+    border-radius: 10px;
+padding-top: 30px; 
+padding-bottom: 0px;
+
+}
+h1{
+    font-family: 'Digital Numbers Regular';  
+    padding-top: 20px;
+    font-size: 50px;
+    color: black;
+    text-shadow:5px 5px 5px goldenrod;
+}
+
+@font-face {
+    font-family: 'Digital Numbers Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital Numbers Regular'), url('DigitalNumbers-Regular.woff') format('woff');
+    }
+
+button{
+    margin: 30px auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 60px;
+    padding: 0px 5px;
+    
+
+}
